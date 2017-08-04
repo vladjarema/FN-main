@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<meta name="viewport" content="width=device-width">
+	<meta charset="UTF-8">
+	<title>FutureNet.club</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/grid12.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600&amp;subset=cyrillic" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://use.fontawesome.com/da21679d06.js"></script>
+
+
+	<script>
+		$(function() {
+
+			$(".picker")
+				.selectmenu()
+				.selectmenu("menuWidget")
+				.addClass("overflow");
+
+			$(".picker1")
+				.selectmenu()
+				.selectmenu("menuWidget")
+				.addClass("overflow");
+
+		});
+		$(".picker2")
+			.selectmenu()
+			.selectmenu("menuWidget")
+			.addClass("overflow");
+
+		});
+
+	</script>
+	<script>
+		$(function() {
+			$('.menu-ac').click(function() {
+				$(this).next('.ac').slideToggle(500);
+			});
+
+		});
+
+	</script>
+
+	<!--------paralax-->
+	<script>
+		$(window).scroll(function() {
+			$(".svg1").css("background-position", "-50% " + ($(this).scrollTop() / 2) + "px");
+		});
+
+	</script>
+</head>
+
+<body>
+	<div class="svg1">
+		<div class="svg-11">
+			<div class="container"><img src="img/people.png" alt="" class="people"></div>
+		</div>
+	</div>
+	<header>
+		<div class="topbar">
+			<div class="container">
+				<div class="row">
+				</div>
+				<nav class="nav">
+					<div class="menu-ac"><i class="fa fa-bars fa-lg"></i> Menu</div>
+					<div class="ac">
+						<ul class="sol-menu">
+							<li><a href="#">Головна</a></li>
+							<li><a href="#">Про FutureNet</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Правила</a></li>
+							<li><a href="#">Item</a></li>
+						</ul>
+					</div>
+				</nav>
+				<div class="language-swither">
+					<select name="number" id="languages">
+     	 		<option>UA</option>
+     			<option selected="selected">RU</option>
+     			<option>ENG</option>
+    			<option>PL</option>
+    		</select>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="header-content">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="logo">
+							<a href="index.html"><img src="img/logo-black.svg" alt="" class="logo-img"></a>
+						</div>
+						<div class="header-text">
+							<h1>FutureNet you coial app Get the app on your phone</h1>
+							<h4>Futurenet is a modern and innovtive social networking site where everyone earns</h4>
+						</div>
+					</div>
+					<div class="col-lg-5 col-lg-offset-1 col-md-6">
+						<div class="forms">
+							<div class="form autorization">
+
+
+								<input type="text" class="log-in-field" name="email" value="" placeholder="Логин">
+								<input type="text" class="log-in-field" name="email" value="" placeholder="Пароль">
+								<button id="login_button" class="index_login_button">Увійти</button>
+								<a href="#" class="forgot-password">Забули пароль?</a>
+							</div>
+							<div class="form registration">
+								<h5>Регистрируйтесь бесплатно</h5>
+								<input type="text" class="big_text" name="name" value="" placeholder="Ваше Ім'я">
+								<input type="text" class="big_text" name="email" value="" placeholder="Прізвище">
+								<div class="lable-date">Дата рождения</div>
+
+								<div class="select date">
+									<select name="date" class="picker">
+								  <option selected="">1</option>
+								  <option >2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								  <option>6</option>
+								  <option>7</option>
+								  <option>8</option>
+								  <option>9</option>
+								  <option>10</option>
+								  <option>11</option>
+								  <option>12</option>
+								  <option>13</option>
+								  <option>14</option>
+								  <option>15</option>
+								  <option>16</option>
+								  <option>17</option>
+								  <option>18</option>
+								  <option>19</option>
+								  <option>20</option>
+								  <option>21</option>
+								  <option>22</option>
+								  <option>23</option>
+								  <option>24</option>
+								  <option>25</option>
+								  <option>26</option>
+								  <option>27</option>
+								  <option>28</option>
+								  <option>29</option>
+								  <option>30</option>
+								  <option>31</option>
+								  <option>32</option>
+								</select>
+								</div>
+								<div class="mounth">
+									<select name="date" class="picker1">
+								  <option selected="">Червень</option>
+								  <option >2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								  <option>6</option>
+								  <option>7</option>
+								  <option>8</option>
+								  <option>9</option>
+								  <option>10</option>
+								  <option>11</option>
+								  <option>12</option>
+						
+								</select>
+								</div>
+								<div class="select year">
+									<select name="date" class="picker2">
+								  <option selected="">1999</option>
+								  <option >2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								  <option>6</option>
+								  <option>7</option>
+								  <option>8</option>
+								  <option>9</option>
+								  <option>10</option>
+								  <option>11</option>
+								  <option>12</option>
+								  <option>13</option>
+								  <option>14</option>
+								  <option>15</option>
+								  <option>16</option>
+								  <option>17</option>
+								  <option>18</option>
+								  <option>19</option>
+								  <option>20</option>
+								  <option>21</option>
+								  <option>22</option>
+								  <option>23</option>
+								  <option>24</option>
+								  <option>25</option>
+								  <option>26</option>
+								  <option>27</option>
+								  <option>28</option>
+								  <option>29</option>
+								  <option>30</option>
+								  <option>31</option>
+								  <option>32</option>
+								</select>
+								</div>
+
+								<input type="text" class="big_text" name="login" value="" placeholder="Логин">
+								<input type="text" class="big_text" name="password" value="" placeholder="Пароль">
+								<button class="sign-up-btn">Реєстрація</button>
+								<div class="copyright-text">
+									<p>Pressing register button, you accept our terms and you accept our rules about data, including cookie cookie policy.</p>
+									<input type="checkbox" name="checkbox" class="check" value="value">
+									<p>I declare that I have read the Terms and Conditions (Terms of Service) accept its terms and consent to the processing of my personal data, including to receive electronic business information.</p>
+									<input type="checkbox" name="checkbox" class="check" value="value">
+									<p>I confirm that I have read the terms and conditions of participation in the FutureNet, including the marketing plan, and I am aware that the portal is not an investment, and the terms and rules for payment of accumulated funds are dependent on the amount and activity of users.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="video-block">
+		<div class="container">
+			<dv class="row">
+				<div class="col-xs-12">
+					<h2>Дивитись відеопрезентацію FutureNet</h2>
+					<h6>Futurenet is a modern and innovtive social networking site where everyone earns</h6>
+					<div class="video">
+						<video onclick="this.play()" width="100%" height="auto" controls poster="img/poster.png">
+  <source src="img/video.mov"type="video/mp4"> Your browser doesn't support HTML5 video tag.
+                        </video>
+					</div>
+				</div>
+			</dv>
+		</div>
+	</div>
+	<div class="bg-svg-2">
+	</div>
+	<div class="adventages">
+		<div class="container">
+			<div class="row">
+				<div class="info-1">
+					<div class="col-md-6">
+						<h3>Використовуйте свій потенціал в інтернеті з максимальною вигодою</h3>
+						<h6>Платома дає вам можливість заробляти, проводячи час за улюбленими заняттями в інтернеті</h6>
+						<div class="icons">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="icon">
+										<img src="img/1.svg" alt="">
+										<div class="icon-text">Общайтесь с друзьями, находите знакомства</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="icon">
+										<img src="img/2.svg" alt="">
+										<div class="icon-text">Создавайте и развивайте сообщества</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="icon">
+										<img width="40px" src="img/3.svg" alt="">
+										<div class="icon-text">Делитесь интересным медиа-контентом</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="icon">
+										<img src="img/4.svg" alt="">
+										<div class="icon-text">Играйте в лучшие онлайн-игры</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<img src="img/img-girls.png" alt="" class="half">
+					</div>
+				</div>
+				<div class="info-2">
+					<div class="col-md-6">
+						<img src="img/men.jpg" alt="" class="half men">
+					</div>
+					<div class="col-md-6">
+						<h3>Використовуйте свій потенціал в інтернеті з максимальною вигодою</h3>
+						<h6>З фючернет ви завжди можете заробляти, не залежно від того чи є ви бізнесменом, чи просто займаєтесь улюбленою справою</h6>
+						<div class="icons">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="icon">
+										<img src="img/5.svg" alt="">
+										<div class="icon-text">Создавайте посадочные страницы </div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="icon">
+										<img src="img/6.svg" alt="">
+										<div class="icon-text">Размещайте свою рекламу на нашей платформе</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="icon">
+										<img src="img/7.svg" alt="">
+										<div class="icon-text">Покупайте и продавайте различные товары</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="icon">
+										<img src="img/8.svg" alt="">
+										<div class="icon-text">Пользуйтесь собственной криптовалютой</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="svg-3"></div>
+	<div class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Про FutureNet</h3>
+				</div>
+				<div class="col-md-6">
+					<h6>FutureNet було створено влітку 2012 року. Початок роботи в Інтернеті тривав з 01.11.2014. </h6>
+					<p>Ми розробляємо першу соціальну платформу, інноваційні комунікаційні інструменти та продукти пропонують людям у всьому світі можливість оптимально використовувати свій інтернет-потенціал. </p>
+				</div>
+				<div class="col-md-6">
+					<div class="history">
+						<div class="row">
+							<div class="big-nouns">
+								<div class="col-sm-6">
+									<div class="big-numbers user"><span class="first-number">1.5</span><span class="million">млн</span></div>
+									<p class="number-text">користувачів по всьому світу</p>
+								</div>
+								<div class="col-sm-6">
+									<div class="big-numbers user"><span class="first-number">190</span><span class="million">країн</span></div>
+									<p class="number-text">користувачів по всьому світу</p>
+								</div>
+							</div>
+						</div>
+						<div class="about-text">Ми є найбільш інноваційною соціальною платформою на ринку. FutureNet постійно постачає нові продукти та креативні рішення для реалізації ваших фінансових цілей.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="svg-4">
+	</div>
+	<div class="gallery">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4"><img src="img/photo1.jpg" alt="" class="photo"></div>
+				<div class="col-sm-4"><img src="img/photo2.jpg" alt="" class="photo"></div>
+				<div class="col-sm-4"><img src="img/photo3.jpg" alt="" class="photo"></div>
+			</div>
+		</div>
+	</div>
+	<div class="app">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="left-content">
+						<h3>FutureNet you coial app Get the app on your phone</h3>
+						<h6>Futurenet is a modern and innovtive social networking site where everyone earns</h6>
+						<div class="bage-conteiner">
+							<div class="bage">
+								<a href="https://play.google.com/store/apps/details?id=club.futurenet.futurenetclub"><img src="img/google-play-badge.svg" alt=""></a>
+								<a href="" class="server-link">direct link from our server</a>
+							</div>
+							<div class="bage clear">
+								<a href="https://itunes.apple.com/pl/app/futurenet-your-social-app/id1041324267?mt=8"><img src="img/app-Store-Badge.svg" alt=""></a>
+								<a href="" class="server-link">direct link from our server</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6"><img src="img/smartphones.png" alt="" class="smartphone"></div>
+			</div>
+		</div>
+	</div>
+	<div class="svg-5"></div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3 col-xs-6">
+					<p class="footer-heading">Навігація</p>
+					<div class="footer-nav">
+						<ul>
+							<li><a href="#">Головна</a></li>
+							<li><a href="">Про FutureNet</a></li>
+							<li><a href="">FAQ</a></li>
+							<li><a href="">Правила</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<p class="footer-heading">Ми в соцмережах</p>
+					<div class="footer-nav">
+						<ul>
+							<li class=""><i class="fa fa-facebook" aria-hidden="true"></i>
+								<a href="#">Facebook</a></li>
+
+							<li><i class="fa fa-youtube-play" aria-hidden="true"></i>
+								<a href="">Youtube</a></li>
+							<li><i class="fa fa-twitter" aria-hidden="true"></i>
+								<a href="">Twitter</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<p class="footer-heading">Продукти </p>
+					<div class="footer-nav">
+						<ul>
+
+							<li><a href="">Future Cloud</a></li>
+							<li><a href="#">Futurenet Shop</a></li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<p class="footer-heading"></p>
+					<div class="footer-nav">
+						<ul>
+
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">FutureNet&#8482; © 2014-2017 <a href="#">first social network with end to end encryption</a> </div>
+		</div>
+	</footer>
+</body>
+
+</html>

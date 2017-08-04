@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Шар_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#32A4C2;stroke-width:7;stroke-miterlimit:10;}
+	.st1{fill:#32A4C2;}
+</style>
+<g>
+	<path class="st0" d="M176.6,2.8c0,8.3-0.6,22-30.1,31.1s-46,25.6-46,52.9"/>
+	<path class="st0" d="M100.4,86.1c-4.6,0-10.3,0.7-24.8-8s-26.1-6.4-38.5,8S6.5,133.4,5,155.9s5.8,44.6,34.8,36
+		c28.9-8.6,42.1-30.9,53.4-33c2.5-0.6,7.2-0.7,7.2-0.7s4.6,0,7.2,0.7c11.3,2.1,24.6,24.4,53.4,33s36.1-13.6,34.8-36
+		c-1.5-22.5-19.8-55.4-32-69.9s-24-16.7-38.5-8S104.9,86.1,100.4,86.1"/>
+	<g>
+		<circle class="st1" cx="146.9" cy="113.9" r="7.2"/>
+		<circle class="st1" cx="146.9" cy="145.6" r="7.2"/>
+		<circle class="st1" cx="162.8" cy="129.8" r="7.2"/>
+		<circle class="st1" cx="131" cy="129.8" r="7.2"/>
+		<path class="st1" d="M36,131.2v-5c0-0.6,0.5-1.2,1.2-1.2h32.2c0.6,0,1.2,0.5,1.2,1.2v5c0,0.6-0.5,1.2-1.2,1.2H37.2
+			C36.6,132.4,36,131.9,36,131.2z"/>
+		<path class="st1" d="M50.8,111.5h5c0.6,0,1.2,0.5,1.2,1.2v32.2c0,0.6-0.5,1.2-1.2,1.2h-5c-0.6,0-1.2-0.5-1.2-1.2v-32.2
+			C49.7,112,50.2,111.5,50.8,111.5z"/>
+	</g>
+</g>
+</svg>
