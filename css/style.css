@@ -17,10 +17,21 @@
    .overflow {
    	height: 200px;
    }
+
    
    #languages {
-   	width: 80px;
+   	width: 100%;
    }
+
+.navbar-logo img {
+	width: 100px;
+	height: auto;
+	display: block;
+	float: left;
+	margin-top: 15px;
+	margin-right: 30px;
+	
+}
    
    .ui-selectmenu-open {
    	z-index: 9999999999999 !important;
@@ -56,12 +67,30 @@
    a:hover {
    	opacity: 0.8;
    }
-   
+.topbar .navbar-logo{
+	width: 0;
+	overflow: hidden;
+	float: left;
+}
+.topbar.fixed .navbar-logo{
+	width: auto;
+}
    .topbar {
-   	position: relative;
-   	z-index: 98000000000000;
-   	background: white;
+		position: relative;
+/*		top: 20px;*/
+		width: 100%;
+		top: 0;
+	   z-index: 99999;
+	   background: #fff;
+	   top: 0;left: 0;
+/*	   padding: 20px 0;*/
    }
+	.topbar.fixed{
+position: fixed;
+		padding:  0!important;
+		height: 50px !important;
+		margin-top: -5px !important;
+	}
    
    .logo {
    	width: 200px;
@@ -171,9 +200,9 @@
    	text-align: right;
    	height: 30px;
    	float: right;
-   	margin-right: 20px;
+   
    	margin-top: 10px;
-   	width: 30px;
+   	width: 70px;
    }
    
    .header-content {
@@ -327,7 +356,7 @@
    	box-shadow: 1px 3px 200px rgba(0, 0, 0, 0.2);
    	-webkit-transition: 1s;
    	/* Safari */
-   	transition: 1s;
+   	transition: 1s;video
    }
    
    .bg-svg-2 {
@@ -359,6 +388,7 @@
    	background: #1aa9c0;
    	color: white;
    	padding-top: 50px;
+   	margin-top: -1px;
    }
    
    .svg-3 {
@@ -570,7 +600,7 @@
    .nav {
    	overflow: hidden;
    	z-index: 50000000;
-   	width: calc (100% - 50px);
+   	width: calc( 100% - 200px);
    	float: left;
    }
    
@@ -753,3 +783,7 @@
    		margin-bottom: 10px;
    	}
    }
+
+
+
+

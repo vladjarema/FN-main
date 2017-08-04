@@ -16,6 +16,7 @@
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script src="https://use.fontawesome.com/da21679d06.js"></script>
+	<script src="custom.js"></script>
 
 
 	<script>
@@ -57,6 +58,19 @@
 		});
 
 	</script>
+	
+	<script>
+	var fixed = false;
+
+$(document).scroll(function() {
+    if( $(this).scrollTop() >= 52 ) {
+		$('.topbar').addClass('fixed');
+    } else {
+        $('.topbar').removeClass('fixed');
+    }
+});
+
+	</script>
 </head>
 
 <body>
@@ -70,6 +84,7 @@
 			<div class="container">
 				<div class="row">
 				</div>
+				<div class="navbar-logo"><a href="index.html"><img src="img/logo-black.svg" alt="" ></a></div>
 				<nav class="nav">
 					<div class="menu-ac"><i class="fa fa-bars fa-lg"></i> Menu</div>
 					<div class="ac">
@@ -234,7 +249,8 @@
 					<h2>Дивитись відеопрезентацію FutureNet</h2>
 					<h6>Futurenet is a modern and innovtive social networking site where everyone earns</h6>
 					<div class="video">
-						<video onclick="this.play()" width="100%" height="auto" controls poster="img/poster.png">
+
+						<video onclick="this.play()" width="100%" height="auto" controls poster="img/play-hover.png">
   <source src="img/video.mov"type="video/mp4"> Your browser doesn't support HTML5 video tag.
                         </video>
 					</div>
@@ -385,7 +401,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6"><img src="img/smartphones.png" alt="" class="smartphone"></div>
+				<div class="col-md-6"><img src="img/smartphones-eng.png" alt="" class="smartphone"></div>
 			</div>
 		</div>
 	</div>
